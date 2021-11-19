@@ -6,6 +6,7 @@
 body{
     scroll-behavior: smooth;
 }
+
 /* navbar */
 #navbar{
     display: flex;
@@ -94,7 +95,7 @@ body{
 #home p{
     color: rgb(65, 41, 41);
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .h1-tag{
     text-align: center;
