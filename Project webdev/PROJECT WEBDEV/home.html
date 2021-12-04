@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
-    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="/home.css">
     <script src="https://kit.fontawesome.com/94d8cc078f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,11 +22,8 @@
     </nav>
     <section id="home">
         <h1 class="h1-tag">Welcome to <span id="sp1">FOODy</span><span id="sp2">Eats</span></h1>
-        <p class="line"> Want a delicious meal, but no time we will deliver it hot and yummy.<br>
-            Yummy food which will please you time, money and tummy.
-            
-            </p>
-        <button class="btn">Order</button>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quidem illum quae, rerum quos architecto praesentium quod vitae reiciendis autem tempora sapiente natus officiis nulla eius aliquid deleniti provident harum</p>
+        <button class="btn show-modal">Order</button>
     </section>
 
 
@@ -103,5 +100,20 @@
             </ul>
              <p class="copyright">All copyright reserved</p> 
     </section>
+
+
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1 class="cart">Order</h1>
+        <div>
+            <input type="checkbox" name="pizza" id="">PIZZ <br>
+            <input type="checkbox" name="pizza" id="">COFFEE <br>
+            <input type="checkbox" name="pizza" id="">PASTA <br>
+            <input type="checkbox" name="pizza" id="">BURGER <br>
+                <button class="btn btn1">place order</button>
+        </div>
+    </div>
+    <div class="overlay hidden"></div>
+<script src="script.js"></script>
 </body>
 </html>
